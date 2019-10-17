@@ -82,3 +82,69 @@ cd /tmp/util-linux
 * Audit screenshots and always blur out personal or confidential information, such as usernames or IP addresses.
 * Crop screenshots containing excessive visual elements/information to better focus on the relevant sections.
 © 2019 GitHub, Inc.
+
+
+### Estilo de escritura
+
+* Usar ortografía y gramática estadounidense.
+* Estilo de escritura directo y sencillo
+* Evite palabras y gramática largas y complejas. Preferir la simplicidad para que el texto sea accesible a los hablantes no nativos
+* Use acrónimos sólo si se entienden comúnmente. Idealmente, deletree el primer uso de un acrónimo seguido por el acrónimo mismo entre paréntesis (p.e. `CLI (Command Line Interface)`).
+* Utilice "y" en lugar de "&" o ampersan.
+* Estilo de escritura directo y sencillo.
+* Evite palabras y gramática largas y complejas. Prefiera la simplicidad para que el texto sea accesible a los hablantes no nativos.
+* Use acrónimos sólo si se entienden comúnmente. Idealmente, deletree el primer uso de un acrónimo seguido por el acrónimo mismo entre paréntesis (p.e. `CLI (Command Line Interface)`).
+* Use palabras en lugar de números (del uno al diez).
+* Preferir voz activa (por ejemplo, `Para iniciar la aplicación, haga clic en "Desplegar") a voz pasiva (por ejemplo, `Para iniciar la aplicación, haga clic en "Desplegar" en lugar de `El botón "Eliminar" se utiliza para eliminar los últimos cambios`).
+* Evite decirle al lector que haga algo haciendo otra cosa. (Por ejemplo, utilice ``Para ejecutar la aplicación, haga clic en "Desplegar"` en lugar de ``Iniciar la aplicación haciendo clic en el botón "Desplegar``)
+* No use el "botón" si puede evitarlo. En vez de eso, haz una buena y clara captura de pantalla.-
+* Escribe frases sencillas evitando largas explicaciones (por ejemplo, en lugar de ``Usar esta nueva herramienta, puedes optimizar tus imágenes Docker`, usa ``Para optimizar tus imágenes Docker, usa la herramienta[example tool](www.example.com)`.
+* Usar palabras y pronombres neutros. Reemplaza los pronombres masculinos (su, él, él, él mismo) con "tú" o con el plural.-
+* Nombrar los diferentes menús, opciones y elementos con el nombre exacto que aparecen en el software (p.e. `Ir a la sección "Configuración" en lugar de la sección Configuración en la herramienta de reducción`).
+
+#### Encabezados
+
+* Formatear los títulos de las secciones como H2 (##).
+* Formatee los títulos de las subsecciones con H3 y H4.
+* Usar el caso de la oración para todos los encabezados.
+* Asegúrese de que sólo hay un carácter de espacio en blanco entre los símbolos del encabezado y el texto del encabezado.
+* Escriba los encabezados descriptivos (por ejemplo, "Cómo configurar el clúster de Kubernetes en 5 pasos" en lugar de "Configuración de un clúster").
+* Utilice un verbo en los títulos para los pasos (si su entrada en el blog contiene instrucciones) en lugar de Cómo (p.e. `Editar un archivo` en lugar de `Cómo editar un archivo`).
+* No termines los encabezados con un punto.
+* Utilice mayúsculas y minúsculas al escribir en mayúsculas sólo la primera palabra de un título.
+
+#### Body
+
+* Divida las oraciones largas en oraciones más pequeñas y cortas.
+* Termine todas las oraciones con un punto. Excepción: si su frase describe una operación que se muestra en la siguiente línea (o captura de pantalla), termínela con dos puntos (por ejemplo, `Enlace una URL específica a su elemento como se muestra a continuación:`).
+* Utilice enlaces externos descriptivos (por ejemplo, ``Encontrar más detalles[aquí]` es menos descriptivo que ``Encontrar más detalles en[documentación oficial de Docker]``).
+* Mantenga la forma paralela. Inicie todos los pasos con un verbo (por ejemplo, `Click Edit`, `Select the item you want to edit`).
+
+| CONSEJO: Encuentre más consejos para escribir buen contenido en la[Guía de Buenas Prácticas](https://drive.google.com/open?id=1mb_vdnMI5c9N4cqOr2-uS1vPxZqHsE0661EfoxFLGus) y en la[plantilla de publicación de blogs](https://docs.google.com/a/bitnami.com/document/d/10c2ojHQeZPORHlXCWbqhch9oId2GWvqUGZ9Dbal7umE/edit?usp=sharing).
+#### Instrucciones
+
+Si está escribiendo una entrada en el blog que contiene algunas instrucciones o pasos a seguir, por favor tenga en cuenta lo siguiente:
+
+* Comenzar cada sección con un título descriptivo (p.e. `Abrir un nuevo proyecto`).-
+* Añada una breve declaración introductoria que conduzca al primer paso numerado.
+* Evite las secciones con más de 10 pasos. Divida las instrucciones en trozos más pequeños.
+* Si hay tantos pasos involucrados, liste los pasos primero como una introducción.
+* Agrupar secciones similares en diferentes categorías.
+* Tareas separadas en unidades de tareas.
+* Escribir una sola idea por párrafo, desarrollar un solo argumento o concepto por bloque o sección de contenido.
+* Use pasos claros y cortos numerados.
+* Las instrucciones deben ser pasos numerados, en lugar de una lista con viñetas.
+* Utilice listas numeradas sólo para obtener instrucciones.
+* Evite usar "usted" en las instrucciones (por ejemplo, en lugar de "puede hacer clic", simplemente use "clic").
+* Comience las oraciones con un verbo de acción.
+* Utilice el formato convencional para las instrucciones (por ejemplo, `Haga clic en "Ver" y luego en "Ver HTML"`).
+
+### Énfasis
+
+* Use negritas para resaltar conceptos importantes (p.e. `**Usando la caja de arena de Kubernetes puede automatizar todas las implementaciones de aplicaciones.**`).
+* Utilice cursiva para las rutas y los nombres de archivo de los marcadores de posición (por ejemplo, `Browse to *Users/Desktop/projects*`` `En el archivo *env.json*, edite las siguientes variables:`).
+* Use letras mayúsculas para los LUGARES.
+* Utilice comillas en la interfaz gráfica de usuario (GUI) para las secciones, opciones, botones y campos de un formulario (por ejemplo, ``Navegue hasta la sección "Configuración" y, a continuación, haga clic en "Idiomas y reloj -> Zona horaria"`).
+* Utilice `| NOTA: , `| SUGERENCIA:, y `| IMPORTANTE:`` para crear casillas de llamada para resaltar frases importantes. Añádelos al final de la sección en lugar de entre st
+*** Translated with www.DeepL.com/Translator (free version) ***
+
